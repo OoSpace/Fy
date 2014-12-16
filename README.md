@@ -16,13 +16,13 @@ email:oospace@foxmail.com
 <b style="color:green">1,代码前几行进参数配置</b>
 
 
-//总条数(必填)     
+/*总条数(必填)    */ 
 var Num=Number(<?php echo $count;?>)     
-//当前页(必填)     
+/*当前页(必填) */    
 var index = Number(<?php echo $page;?>);    
-//每页的条数(可选,默认每页10条) 
+/*每页的条数(可选,默认每页10条) */
 var  pageNum=Number(10);       
-//最大显示的页码的数目(可选，默认显示5个页码,页码数目必须大于等于1) 
+/*最大显示的页码的数目(可选，默认显示5个页码,页码数目必须大于等于1) */
 var maxPageNum=Number(5);
 
 <b style="color:green">2,控制分页位置及分页显示的设置</b>
