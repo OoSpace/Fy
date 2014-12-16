@@ -30,9 +30,10 @@ var  maxPageNum=Number(5);
 
 //分页区域填写     
 $('.page').html(str);     //不使用JQuery时，document.getElementById("page").html(str);
-<table class="page" id="page">    
+//html代码
+/*<table class="page" id="page">    
 <tr><td>此处分页只需要传递给我当前页码和总页数即可</td></tr>     
-</table>
+</table>*/
 
 分页提交页码查询事件
 
