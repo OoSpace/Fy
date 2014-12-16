@@ -62,7 +62,7 @@
     
     var prev = index - 1;//上一页         
     var next = index+ 1;//下一页                    
-    var str = "<tr>";         
+    var str = "<table><tr>";         
     if(count==0){             
     str += "<td>共<a href='#'>0</a>页</td><td>";         
     }else if(index>count||index<=0){            
@@ -96,14 +96,14 @@
     if(index!=count&&count>1&&index<count){       
     str += "<td style='width:40px;font-family: 微软雅黑;font-size: 14px;white-space: nowrap;'>&nbsp;&nbsp;<a href='#' onclick='submit(" + count+ ");'>尾页</a>&nbsp;&nbsp;</td>" ;      
     }                    
-    str+="</tr>";       
+    str+="</tr></table>";       
     }    
     
     //分页区域填写     
-    $('.page').html(str);      
-    <table class="page">     
-    <tr><td>此处分页只需要传递给我当前页码和总页数即可</td></tr>   
-    </table> 
+    $('.page').html(str);   //document.getElementById("page").html(str;   
+    <div class="page" id="page">     
+    此处分页只需要传递给我当前页码和总页数即可 
+    </div> 
     
     //根据页码查询,    
     function submit(pageIndex) {       
