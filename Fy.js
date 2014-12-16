@@ -1,3 +1,7 @@
+   //Fy.js
+   //author:oospace
+   //email:oospace@foxmail.com
+   
     //总条数(必填)    
     var Num=Number(<?php echo $count;?>)     
     //当前页(必填)     
