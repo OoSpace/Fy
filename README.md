@@ -13,7 +13,7 @@ email:oospace@foxmail.com
 使用方法
 ==
 
-<span style="color:green">代码前几行进参数配置</span>
+<div style="color:green">代码前几行进参数配置</div>
 
 
 //总条数(必填)     
@@ -25,7 +25,7 @@ var  pageNum=Number(10);
 //最大显示的页码的数目(可选，默认显示5个页码,页码数目必须大于等于1) 
 var  maxPageNum=Number(5);
 
-<span style="color:green">控制分页位置及分页显示的设置</span>
+<div style="color:green">控制分页位置及分页显示的设置</div>
 
 
 //分页区域填写     
@@ -33,7 +33,7 @@ $('.page').html(str);     //不使用JQuery时，document.getElementById("page")
 
 
 
-<span style="color:green">分页提交页码查询事件</span>
+<div style="color:green">分页提交页码查询事件</div>
 
 
 function submit(pageIndex) {         
